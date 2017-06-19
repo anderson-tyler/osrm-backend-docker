@@ -3,8 +3,8 @@
 # Defaults
 OSRM_DATA_PATH=${OSRM_DATA_PATH:="/osrm-data"}
 OSRM_DATA_LABEL=${OSRM_DATA_LABEL:="data"}
-OSRM_GRAPH_PROFILE=${OSRM_GRAPH_PROFILE:="car"}
-OSRM_PBF_URL=${OSRM_PBF_URL:="http://download.geofabrik.de/asia/maldives-latest.osm.pbf"}
+OSRM_GRAPH_PROFILE=${OSRM_GRAPH_PROFILE:="transit"}
+OSRM_PBF_URL=${OSRM_PBF_URL:="http://download.geofabrik.de/north-america/us/florida-latest.osm.pbf"}
 
 
 _sig() {
