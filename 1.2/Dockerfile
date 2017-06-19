@@ -32,7 +32,7 @@ RUN apt-get -y update \
 # Build osrm-backend
 RUN mkdir /osrm-src \
  && cd /osrm-src \
- && curl --silent -L https://github.com/Project-OSRM/osrm-backend/archive/v$OSRM_VERSION.tar.gz -o v$OSRM_VERSION.tar.gz \
+ && curl --silent -L https://github.com/anderson-tyler/osrm-backend/archive/v$OSRM_VERSION.tar.gz -o v$OSRM_VERSION.tar.gz \
  && tar xzf v$OSRM_VERSION.tar.gz \
  && cd osrm-backend-$OSRM_VERSION \
  && mkdir build \
